@@ -1,0 +1,182 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --yellow-color: #ac8c48;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    /*10px*/
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header__navbar-menu {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.header__navbar-menu-list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navbar-menu-list li {
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+
+/* .header__navbar-menu-list li:nth-child(5)::after{
+    content: "";
+    background: url(/images/dropdown.png);
+    width: 10px;
+    height: 10px;
+    object-fit: contain;
+} */
+.header__navbar-menu-logo {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.header_bgr {
+    background-image: url(/images/bakery-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__bg-text {
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 10px 50px 50px 50px;
+}
+
+.header__navbar-contact {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.header__navbar-contact-icon {
+    display: flex;
+    align-items: center;
+}
+
+.header__navbar-contact-icon a {
+    color: var(--white-color);
+    margin: 0px 5px;
+}
+
+.header__navbar-contact-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+
+.header__navbar-contact-info h3 {
+    margin: 0px 10px;
+}
+
+.header__navbar-breadcumb {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.header__navbar-breadcumb-link {
+    padding-left: 0px;
+}
+
+.header__navbar-breadcumb-link li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.header__navbar-breadcumb-link li:nth-child(1)::after {
+    content: " ->";
+}
+
+.body_bgr {
+    background-image: url(/images/iphone_wallpaper_white_011.jpg);
+    background-repeat: repeat;
+}
+
+.main__menu-list-menu-type {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.main__menu-list-menu-type li {
+    display: inline;
+    border: 0.1px solid white;
+    margin: 0px 10px;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+.main__menu-list-menu-type li:hover {
+    display: inline;
+    border: 0.1px solid white;
+    margin: 0px 10px;
+    padding: 20px 50px;
+    background-color: #d1ab7f;
+    cursor: pointer;
+}
+
+
+.main__menu-list-menu-type {
+    border: whitesmoke solid 0.1px;
+    text-align: left;
+}
+
+.main__menu-list {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 100px;
+}
+
+.main__menu-list-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin: 5px 0px;
+    padding: 10px 50px;
+}
+
+.main__menu-list-item-content {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main__menu-list-item-price {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__menu-list-item-price ul li {
+    display: inline;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+
+.main__menu-list-item-price ul:nth-child(2) li {
+    color: #d1ab7f;
+}
