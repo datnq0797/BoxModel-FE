@@ -1,0 +1,105 @@
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgcontainer {
+    text-align: center;
+}
+
+.login-form {
+    width: 600px;
+    height: 80%;
+    padding: 50px 50px;
+    border: solid 1px beige;
+    background-color: white;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-info {
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.container-info-chk {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.container-info-chk label {
+    font-size: 20px;
+}
+
+.uname-label,
+.uname-input {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.uname-input {
+    width: 100%;
+    height: 40px;
+    border: solid 0.1px #e7ab3c;
+    padding: 2px 0px;
+}
+
+.psw-input,
+.psw-label {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.psw-input {
+    width: 100%;
+    height: 40px;
+    border: solid 0.1px #e7ab3c;
+    padding: 2px 0px;
+}
+
+.psw a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.psw-label-create {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.submit {
+    width: 100%;
+    height: 50px;
+    background-color: #e7ab3c;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imgcontainer h1 {
+    font-size: 50px;
+}

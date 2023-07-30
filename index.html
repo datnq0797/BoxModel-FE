@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="center-screen">
+    <form class="login-form">
+        <div class="imgcontainer">
+            <h1>Login</h1>
+        </div>
+
+        <div class="container">
+            <label for="uname" class="uname-label">Username or email - address</label>
+            <input type="text" placeholder="    example@domain.com" name="uname" required class="uname-input">
+            <label for="psw" class="psw-label">Password</label>
+            <input type="password" placeholder="    *********" name="psw" required class="psw-input">
+            <div class="container-info">
+                <div class="container-info-chk">
+                    <input type="checkbox" checked="checked" name="remember" class="chbox-input">
+                    <label for=""> Save password</label>
+                </div>
+                <span class="psw"><a href="#" id="psw">Forgot password ?</a></span>
+            </div>
+            <button type="submit" class="submit">Sign In</button>
+            <label for="psw" class="psw-label-create"><a href="#">OR CREATE AN PASSWORD</a></label>
+        </div>
+    </form>
+</body>
+
+</html>
